@@ -26,6 +26,10 @@ h2 {
     color: #4aaaa5;
 }
 
+p {
+    margin-left: 30px;
+}
+
 hr {
     border-top: #cccccc solid 1px;
 }
@@ -88,6 +92,7 @@ footer p {
 
 .pad {
     padding-bottom: 15px;
+    /* text-align: center; */
 }
 
 .input-style[type=submit] {
