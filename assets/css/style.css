@@ -1,141 +1,98 @@
-* {
-    box-sizing: border-box;
+html {
+    position: relative;
+    min-height: 100%;
 }
 
-body {
-    font-family: Arial, Helvetica, sans-serif;
-    color: #777777;
+body{
+    background-image: url(../images/white-waves.png);
 }
 
-header {   
+.nav-style {
+    padding: 0px 20px 0px 0px;
     background-color: #ffffff;
-    width: 100%;
-    height: 100px;
     border-bottom: #cccccc solid 2px;
 }
 
+h1, h2 {
+    font-weight: bold;
+}
 h1 {
-    font-weight: bold;
     font-size: 24px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
-
-h2 {
-    color:  #4aaaa5;
-    font-size: 22px;
-    padding: 10px;
-    font-weight: bold;
-    font-family: Georgia, 'Times New Roman', Times, serif
-}
-
-#name {
-    float: left;
-    color: white;
-    background-color: #4aaaa5;
-    height: 70px;
-    width: 190px;
-    padding: 20px;
-    margin-top: 28px;
-    margin-left: 286px;  
-    text-align: center;    
-}
-
-#nav {
-    float: right;
-    margin-top: 48px;
-    margin-right: 286px;
-}
-
-.main{
-    float: left;
-    background-image: url("../images/white-waves.png");
-    background-repeat: repeat;
-    width: 100%;
-    height: 600px;
-}
-
-.content {    
-    width: 960px;
-    height: 450px;
-    margin: 25px 286px;
-    overflow: auto;
-    background-color: #ffffff;
-    padding: 15px;
-    border: #dddddd solid 1px;
     
 }
 
-.text { 
-    margin-top: 15px;
-    line-height: 29px;
-    padding-right: 30px;
-   
-}
-
-#my-image{
-    float: left;
-    margin-top: 15px;
-    margin-right: 10px;
+h2 {
+    font-size: 23px;
+    color: #4aaaa5;
 }
 
 hr {
     border-top: #cccccc solid 1px;
 }
 
-footer{
+#name {
+    color: white;
+    background-color: #4aaaa5;
+    height: 80px;
+    width: 200px;
+    padding: 20px;
+    text-align: center;  
+}
+
+.links {
+    padding-left: 15px;
+    margin-right: 5%;
+}
+
+.c {
+    margin-bottom: 75px;
+}
+
+.row-style-top, .row-style-main {
+    border-right:#ccc solid 1px;
+    border-left: #ccc solid 1px;
+    background-color: white;
+}
+
+.row-style-top {
+    border-top: #ccc solid 1px;
+    margin-top: 30px;
+    padding: 13px;
+    
+}
+
+.row-style-main {  
+    border-bottom: #cccccc solid 1px;
+    min-height: 400px;
+    padding: 0px 20px;
+    
+
+}
+
+/* TODO sticky footer from BS not working, try to fix */
+footer {   
     position: fixed;
-    left: 0;
     bottom: 0;
     width: 100%;
-    height: 60px;
+    height: 60px;    
     background-color: #666666;
     color: #ffffff;
     text-align: center;
-    padding: 10;
     border-top:  #4aaaa5 solid 8px;
 }
 
-#copy-text {
+footer p {
     padding: 20px;
     font-size: 10px;
 }
 
-input[type=text], [type=email]{
-    width: 100%;
-    margin-bottom: 10px;
+.pad {
+    padding-bottom: 15px;
 }
 
-input[type=submit] {
+.input-style[type=submit] {
     background-color:#4aaaa5;
     border: none;
     color: #ffffff;
-    width: 70px;
-}
-
-#message input{
-    height: 180px;
-}
-
-form {
-    padding: 10px 0;
-    line-height: 20px;
-}
-
-a:link {
-    color: #777777;
-    text-decoration: none;
-}
-
-a:visited {
-    color: rgb(153, 152, 152);
-    text-decoration: none;
-}
-
-a:hover {
-    text-decoration: underline;
-}
-
-.portfolio-images {
-    margin: 10px 10px 10px 0;
     
 }
