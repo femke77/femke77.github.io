@@ -26,12 +26,6 @@ h2 {
     color: #4aaaa5;  
 }
 
-/* this is for the words under the portfolio image, this must be changed when you figure
-out how you want to style that portfolio page and you don't want all p to be indented like that */
-p {
-    margin-left: 30px;
-}
-
 hr {
     border-top: #cccccc solid 1px;
 }
@@ -94,7 +88,7 @@ footer p {
 
 .pad {
     padding-bottom: 15px;
-    /* text-align: center; */
+    text-align: center;
 }
 
 .input-style[type=submit] {
