@@ -48,7 +48,7 @@ hr {
     margin-bottom: 75px;
 }
 
-.row-style-top, .row-style-main {
+.row-style-top, .row-style-main, .row-style-port, .row-style-port-bottom {
     border-right:#ccc solid 1px;
     border-left: #ccc solid 1px;
     background-color: white;
@@ -69,6 +69,15 @@ hr {
 
 }
 
+.row-style-port, .row-style-port-bottom {
+    min-height: 200px;
+    padding: 0px 20px;
+    
+}
+
+.row-style-port-bottom {
+    border-bottom: #cccccc solid 1px;
+}
 /* TODO sticky footer from BS not working, try to fix */
 footer {   
     position: fixed;
