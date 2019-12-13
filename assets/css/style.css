@@ -7,6 +7,15 @@ body{
     background-image: url(../images/white-waves.png);
 }
 
+a {
+    color: darkslategray
+}
+
+p {
+    margin-bottom: 0px;
+    margin-top: 5px;
+}
+
 .nav-style {
     padding: 0px 20px 0px 0px;
     background-color: #ffffff;
@@ -16,9 +25,9 @@ body{
 h1, h2 {
     font-weight: bold;
 }
+
 h1 {
-    font-size: 24px;
-    
+    font-size: 24px;    
 }
 
 h2 {
@@ -78,6 +87,7 @@ hr {
 .row-style-port-bottom {
     border-bottom: #cccccc solid 1px;
 }
+
 /* TODO sticky footer from BS not working, try to fix */
 footer {   
     position: fixed;
@@ -90,19 +100,17 @@ footer {
     border-top:  #4aaaa5 solid 8px;
 }
 
-footer p {
+footer {
     padding: 20px;
     font-size: 10px;
 }
 
 .pad {
-    padding-bottom: 15px;
+    padding-bottom: 20px;
     text-align: center;
 }
 
-.input-style[type=submit] {
-    background-color:#4aaaa5;
-    border: none;
-    color: #ffffff;
-    
+#contact-links {
+
 }
+
